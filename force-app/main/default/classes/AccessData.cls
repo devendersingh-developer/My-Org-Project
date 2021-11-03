@@ -3,5 +3,7 @@ public  class AccessData {
 
        return JSON.serialize([select id, name, email 
                               from contact Where name like '%C%']);
+
+                              
    }
 }
